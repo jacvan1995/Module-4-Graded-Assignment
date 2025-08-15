@@ -1,7 +1,5 @@
 // API // http://www.omdbapi.com/?i=tt3896198&apikey=9ee13382
 //(`https://www.omdbapi.com/?apikey=9ee13382&s=${userInput}`)
-
-
 let moviesContainer = document.getElementById("movies-container")
 var searchBtn = document.getElementById("search-btn");
 var movieInputElement = document.getElementById("movie-name");
@@ -30,7 +28,7 @@ searchBtn.addEventListener("click", function () {
          <p>  <b> Name :  </b> ${item.Title} </p>
          <p> <b> Year : </b> ${item.Year}  </p>
          <p> <b> Type : </b> ${item.Type}  </p>
-         </div>`
+     </div>`
             })
             } else {
                 movieStatusElement.innerText = "404 Movies Not Found!"

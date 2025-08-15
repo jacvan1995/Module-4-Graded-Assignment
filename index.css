@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(170, 170, 170);
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkUvhi-mYdaquhn2WlKlHKiP6VEQQ0izxhKg&usqp=CAU");
-    color: #fff;
+    background-color: #242424;
+    color: white;
 
 }
 #movie-status{
@@ -36,10 +35,6 @@ body {
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
-}
-
-.nav {
-    text-align: center;
 }
 
 .movie-card {

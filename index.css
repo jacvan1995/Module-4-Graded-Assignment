@@ -1,7 +1,10 @@
+* {
+    background-color: #242424;
+    color: #fff;
+}
 body {
     background-color: #242424;
     color: white;
-
 }
 #movie-status{
     font-size: 30px; 
